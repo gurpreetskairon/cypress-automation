@@ -1,0 +1,24 @@
+{
+    "elements":{
+        "contactMenu": "a[href='#/contact']",
+        "submitButton": ".btn-contact.btn.btn-primary",
+        "forenameErrorLabel": "#forename-err",
+        "emailErrorLabel": "#email-err",
+        "mesageErrorLabel": "#message-err",
+        "forenameTextbox": "#forename",
+        "emailTextbox": "#email",
+        "messageTextbox": "#message",
+        "backButton": "a[class='btn']"
+    },
+    "data":{
+        "name": "John",
+        "email": "test@test.com",
+        "message": "This is a sample test message."
+    },
+    "expected":{
+        "forenameErrorMessage": "Forename is required",
+        "emailErrorMessage": "Email is required",
+        "messageErrorMessage": "Message is required",
+        "successMessage": "Thanks <name>, we appreciate your feedback."
+    }
+}
